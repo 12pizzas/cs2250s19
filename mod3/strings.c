@@ -25,15 +25,15 @@ const int SIZE = 50;
 int main()
 {
     char fName[SIZE];
-    int age;
+    unsigned int long age;
     char lName[SIZE];
     printf("Please enter your first name: ");
     scanf("%s", fName);
     printf("Please enter your last name: ");
     scanf("%s", lName);
     printf("Please enter your age: ");
-    scanf("%d", &age);
-    printf("Hi %s %s %d\n", fName, lName, age);
+    scanf("%lu", &age);
+    printf("Hi %s %s %lu\n", fName, lName, age);
 
     return 0;
 }
