@@ -28,10 +28,16 @@ int main()
 {
     double radius;
     double angleDegrees;
-    
     // 1) Capture user input for radius and theta angle
+    printf("Enter radius: ");
+    scanf("%lf", &radius);
+    printf("Enter angle in degrees: ");
+    scanf("%lf", &angleDegrees);
+    printf("%lf %lf\n", radius, angleDegrees);
     // 2) Convert the angle to radians
+
     // 3) Calculate cartesian coordiantes
+
     // 4) Print results
     
     
