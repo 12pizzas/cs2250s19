@@ -46,7 +46,9 @@ int main()
     y_pos = radius*sin(angleRadians);
 
     // 4) Print results
-    printf("%lf %lf", x_pos, y_pos);
+    // %.2 changes the precision to 2 decimal points
+    // %6.2 changes the precision to 2 decimal points, 6 chars wide
+    printf("Your cartesian coordinate is (%.2lf, %.2lf)\n", x_pos, y_pos);
     
 
     return 0;
